@@ -1,0 +1,29 @@
+INSERT INTO equipes (nome)
+VALUES
+('Equipe Azul'),
+('Equipe Vermelha');
+
+INSERT INTO participantes (nome, equipe_id)
+VALUES
+('Lucas', 1),
+('Mariana', 1),
+('Gabriel', 2);
+
+INSERT INTO registros (participante_id)
+VALUES
+(1),
+(2),
+(3);
+
+INSERT INTO modalidades (nome)
+VALUES
+('Futebol'),
+('Basquete'),
+('Vôlei');
+
+INSERT INTO participantes_modalidades (participante_id, modalidade_id)
+VALUES
+(1, 1),
+(1, 2),
+(2, 3),
+(3, 1);
